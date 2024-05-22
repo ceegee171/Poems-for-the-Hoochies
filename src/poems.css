@@ -1,9 +1,56 @@
 body {
   background: lightseagreen;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
-  font-weight: 68px;
-  font-size: 90px;
+  font-weight: 50px;
+  font-size: 80px;
   line-height: 4px 5px;
+  text-align: center;
+  color: color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+form {
+  padding: 50px;
+  background-color: antiquewhite;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 8px;
+  display: flex;
+}
+
+.instructions {
+  padding: 14px;
+  width: 80%;
+  font-size: 16px;
+  border: 2px solid rgba(224, 0, 0);
+  border-radius: 29px;
+  line-height: 17px;
+  color: blueviolet;
+}
+
+.submit-button {
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 19px;
+  width: 100px;
+  line-height: 17px;
+  padding: 14px;
+}
+
+.poem-1 {
+  font-size: 20px;
+  background-color: antiquewhite;
+  padding: 40px;
+  line-height: 12px;
+  font-weight: 100;
+  border-left: 3px 4px auto;
+  padding-top: 10px;
+}
+footer {
 }
