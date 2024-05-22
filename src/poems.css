@@ -1,3 +1,9 @@
 body {
   background: lightseagreen;
 }
+
+h1 {
+  font-weight: 68px;
+  font-size: 90px;
+  line-height: 4px 5px;
+}
