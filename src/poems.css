@@ -45,12 +45,14 @@ form {
 
 .poem-1 {
   font-size: 20px;
-  background-color: antiquewhite;
-  padding: 40px;
+  background-color: rgba(255, 204, 204);
+  padding: 60px;
   line-height: 12px;
   font-weight: 100;
   border-left: 3px 4px auto;
-  padding-top: 10px;
+  border-radius: 14px;
 }
 footer {
+  padding: 20px;
+  line-height: 18px;
 }
