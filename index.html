@@ -11,25 +11,29 @@
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to a page about poems</h1>
+        <h1>AI Romantic Poem Generator</h1>
       </header>
       <main>
-        <form id="form-poem">
-          <input
-            type="text"
-            placeholder="Enter the topic of the french poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="formofforms">
+          <form id="form-poem">
+            <input
+              type="text"
+              placeholder="Enter the topic of the french poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+
+          <small class="tiny"><strong>i.e Sun, Flowers, Love...</strong></small>
+        </div>
       </main>
       <script src="src/poems.js"></script>
 
-      <div class="poem-1" id="input-poem-here"></div>
+      <div class="poem-1 blink" id="input-poem-here"></div>
       <footer>
         This AI project was coded by
         <a
